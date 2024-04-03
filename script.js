@@ -18,8 +18,6 @@ let score = 0;
 let numberOfPoints = 10;
 
 quizForm.addEventListener("submit", (event) => {
-
-    console.log("event parameter: ", event)
     event.preventDefault()
 
     const userAnswer = document.getElementById("answer").value;
